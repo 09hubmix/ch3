@@ -11,9 +11,7 @@ public class ConvertTime {
 	double minutes_remainder = hours_remainder / 60;
 	double seconds_remaining = minutes_remainder / 60;
 	
-	System.out.print(hours);
-	System.out.print(minutes);
-	System.out.print(seconds_remaining);
+	System.out.print(hours + "hours, " + minutes + "minutes, and " + seconds_remaining + "seconds");	
 	}
 }
 	
